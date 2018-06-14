@@ -10,7 +10,7 @@ It's django basic project
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
-Python version : python3.4
+Python version : python3.6
 ###### python installtion in ubuntu machine
 **sudo add-apt-repository ppa:jonathonf/python-3.6**
 **sudo apt-get update**

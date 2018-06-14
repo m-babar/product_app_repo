@@ -62,7 +62,7 @@ def update_product_quantity(request):
                                 product=product,
                                 quantity=quantity
                             )
-            data = {'status': 201,'message': 'Successfully create new place orders.'}
+            data = {'status': 201,'message': 'Your order has been placed.'}
             return HttpResponse(json.dumps(data), content_type='application/json')
 
         data = {'status': 400,'message': 'Product related Id not found.'}
