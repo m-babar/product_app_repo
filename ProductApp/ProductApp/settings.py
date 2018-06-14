@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
     'product',
     'widget_tweaks',
+    'django_nose',
 ]
 
 MIDDLEWARE = [
@@ -151,3 +152,10 @@ except Exception as e:
     pass
 
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+NOSE_ARGS = [
+    '--with-coverage',
+    '--cover-package=product',
+]   
