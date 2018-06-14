@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block css%}
+{% endblock css%}
+
+{% block content %}
+
+    <div class="tab_heading">
+        <h2>{% trans 'Place Orders'%}</h2>
+    </div>
+
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Symbol</th>
+            <th>Description</th>
+            <th>Unit</th>
+            <th>Quntity</th>
+            <th>Place Order Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+    </table>
+{% endblock %}
+{% block js %}
+    <script type="text/javascript" src="{% static 'product/place_order.js'%}"></script>
+{% endblock %}

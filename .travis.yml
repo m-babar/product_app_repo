@@ -1,0 +1,21 @@
+language: python
+
+python:
+  - "3.6"
+
+services:
+  - mysql
+
+env:
+  - DJANGO_VERSION=1.11.5 DB=mysql
+
+install:
+  - pip install -r ProductApp/requirments.txt
+
+before_script:
+  - mysql -e 'create database test;' -u root
+
+script:
+  - python ProductApp/manage.py migrate
+  - python ProductApp/manage.py test product.tests.model_test
+  - python ProductApp/manage.py test product.tests.view_test -k

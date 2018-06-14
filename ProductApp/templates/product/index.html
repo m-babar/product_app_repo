@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+
+
+{% block css%}
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css">
+{% endblock css%}
+
+{% block content %}
+
+    <div class="tab_heading">
+        <h2>{% trans 'Products'%}</h2>
+    </div>
+
+    <input type="text" placeholder="Enter your keywords" id="search_input" class="form-control">
+    <table class="table my_table">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Symbol</th>
+            <th>Description</th>
+            <th>Unit</th>
+            <th>Quntity</th>
+          </tr>
+        </thead>
+        <tbody class="payload-data">
+        </tbody>
+       <!--  <tbody class="search-data">
+        </tbody> -->
+    </table>
+
+{% endblock %}
+
+
+{% block js %}
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js"></script>
+    <script type="text/javascript" src="{% static 'product/index.js'%}"></script>
+
+{% endblock %}
+

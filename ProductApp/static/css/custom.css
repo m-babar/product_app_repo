@@ -1,0 +1,58 @@
+ a.logo {
+    width: 15%;
+}
+.wrap_menu {
+    width: 70%;
+}
+.form-control {
+    border: 1px solid #ccc !important;
+    height: 50px;
+    border-radius: 0px;
+}
+.tab_heading h2 {
+    color: #000;
+    font-weight: 500;
+}
+.tab_heading {
+    padding: 0px 0px 29px 0px;
+}
+table.table.my_table {
+    border: 1px solid #ccc;
+    margin-top: 40px;
+}
+a.my_rights {
+    position: absolute;
+    right: 44px;
+    top: 20px;
+    background: #444;
+    padding: 4px 19px;
+    font-weight: 600;
+    color: #fff;
+}
+input.update_quntity {
+    border: 1px solid #ccc !important;
+    border-radius: 0px;
+    height: 30px;
+    padding: 10px;
+}
+
+
+a.my_rights {
+    float: right;
+    position: absolute;
+    z-index: 99999;
+    right: 39px;
+    top: 20px;
+    background: #666;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+
+.tab_heading h2 {
+    color: #000;
+    font-weight: 500;
+}
+.tab_heading {
+    padding: 0px 0px 29px 0px;
+}
