@@ -60,3 +60,6 @@ Note, requirments.txt file present in project root direcotry
 **python manage.py test product.tests.model_test**
 
 **python manage.py test product.tests.view_test -k**
+
+## project Video
+https://drive.google.com/open?id=1SK21LF-1VnsUrGT74i67-MCcT6dSiZNt
