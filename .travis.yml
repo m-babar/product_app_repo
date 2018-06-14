@@ -17,5 +17,4 @@ before_script:
 
 script:
   - python ProductApp/manage.py migrate
-  - python ProductApp/manage.py test product.tests.model_test
-  - python ProductApp/manage.py test product.tests.view_test -k
+  - python ProductApp/manage.py test
