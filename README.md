@@ -1,5 +1,5 @@
 # Product.
-[![Build Status](https://api.travis-ci.org/nishuk0007/product_app_repo.png?branch=master)](https://github.com/nishuk0007/product_app_repo)
+[![Build Status](https://api.travis-ci.org/m-babar/api_project.png?branch=master)](https://api.travis-ci.org/m-babar/api_project)
 
 
 
